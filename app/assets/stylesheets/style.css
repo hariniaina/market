@@ -17,26 +17,26 @@
 #diapo1{
     margin-left: 5px; 
     width: 100%;
-    height: 100%;
+    height: 110%;
     background-image: url(log.png);
     background-size: cover; 
     
     
 
     webkit-animation-name: diapo1;
-    webkit-animation-duration: 13s;
+    webkit-animation-duration: 30s;
     webkit-animation-timing-function: linear;
     webkit-animation-iteration-count: infinite;
     webkit-animation-direction: normal;
 
     moz-animation-name: diapo1;
-    moz-animation-duration: 13s;
+    moz-animation-duration: 30s;
     moz-animation-timing-function: linear;
     moz-animation-iteration-count: infinite;
     moz-animation-direction: normal;
 
     animation-name: diapo1;
-    animation-duration: 13s;
+    animation-duration: 30000ms;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: normal;                
@@ -70,12 +70,25 @@
     80%{background-image: url(ig4.jpg);}
 }
 
+#para{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+h3.nom{
+    text-align: center;
+    color: #2c3e50;
+}
+
+h3.nom:hover{
+    color: black;
+    cursor: pointer;
+}
 
 #diapo2{
   
     width: 100%;
-    height: 100%;
+    height: 110%;
     background-image: url(log.png);
     background-size: cover; 
     
@@ -93,7 +106,7 @@
     moz-animation-direction: normal;
 
     animation-name: diapo2;
-    animation-duration: 13s;
+    animation-duration: 30000ms;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: normal;                
@@ -167,7 +180,7 @@
   .wrapper i {
     padding: 10px;
     text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
-    transition: all ease-in-out 150ms;
+    transition: all ease-in-out .1s;
   }
   .wrapper a:nth-child(1) {
     color: #dd4b39;
@@ -182,7 +195,14 @@
     margin-top: -3px;
     text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
   }
+.social{
+    color: #4867AA;
+}
 
+.social:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
 
 #img {
   -webkit-filter: blur(3px);
